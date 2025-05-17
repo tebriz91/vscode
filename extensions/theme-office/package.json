@@ -1,0 +1,72 @@
+{
+	"name": "office-theme",
+	"displayName": "Office Theme",
+	"description": "Microsoft Office(like) theme",
+	"icon": "",
+	"publisher": "",
+	"engines": {
+		"vscode": "^1.42.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"office theme",
+		"theme",
+		"Word",
+		"PowerPoint",
+		"Excel",
+		"OneNote",
+		"Access",
+		"Publisher"
+	],
+	"repository": {
+		"type": "",
+		"url": ""
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Office Theme (Word)",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful/word-color-theme.json"
+			},
+			{
+				"label": "Office Theme (PowerPoint)",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful/powerpoint-color-theme.json"
+			},
+			{
+				"label": "Office Theme (Excel)",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful/excel-color-theme.json"
+			},
+			{
+				"label": "Office Theme (OneNote)",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful/onenote-color-theme.json"
+			},
+			{
+				"label": "Office Theme (Access)",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful/access-color-theme.json"
+			},
+			{
+				"label": "Office Theme (Publisher)",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful/publisher-color-theme.json"
+			},
+			{
+				"label": "Office Black Theme (Word) (Experimental)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Black/word-black-color-theme.json"
+			},
+			{
+				"label": "Office Black Theme (Word)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Black/word-black-color-theme-old.json"
+			}
+		]
+	},
+	"version": "1.4.0"
+}
